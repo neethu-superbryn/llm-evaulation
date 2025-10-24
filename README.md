@@ -26,6 +26,10 @@ IntellAgent is an advanced multi-agent framework that transforms the evaluation 
 
 - 📊 **Comprehensive Performance Evaluations:**  
 Access detailed analysis to identify performance gaps, prioritize improvements, and compare outcomes across experiments.
+
+- 🌐 **User-Friendly Web Interface:**  
+  Upload your agent prompt, configure settings, and view results through an intuitive web dashboard.
+
 - 💪 **Simple integration:**  
   Simple integration to your conversational agent.
 
@@ -48,13 +52,26 @@ IntellAgent framework consists of three steps:
 
 > For a more detailed and comprehensive guide, see the [Start Guide](https://intellagent-doc.plurai.ai/quick_start/installation/).
 
+### 🌐 Web Interface (Recommended for New Users)
 
+The easiest way to get started is with our web interface:
 
+```bash
+# 1. Check if everything is set up correctly
+python health_check.py
 
+# 2. Configure your API keys
+python setup_api_keys.py
 
+# 3. Launch the web interface
+python launch_web_interface.py
+```
 
+Then open your browser to `http://localhost:8501` and follow the guided setup!
 
+📖 **[Web Interface Guide](WEB_INTERFACE_README.md)** | 📝 **[Example Usage](examples/web_interface_example.md)**
 
+### 🖥️ Command Line Interface
 
 IntellAgent requires `python >= 3.9`
 <br />

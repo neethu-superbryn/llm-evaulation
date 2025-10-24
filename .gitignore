@@ -1,15 +1,50 @@
-# Config files
+# Config files with sensitive data
 config/llm_env.yml
-config/config_default.yml
 
 # Python files
 *.pyc
 __pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
 
 # VSCode settings
 .vscode/
 
-# Python virtual environment
+# Python virtual environments
+venv/
 .venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Results and temporary files
+results/
+*.log
+*.db
+*.pickle
+memory.db
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+
+# Additional config files
 config/config_anthropic.yml
 config/config_airline_gemini.yml
